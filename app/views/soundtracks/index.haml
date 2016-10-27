@@ -1,0 +1,5 @@
+%table
+  - @sounds.each do |sound|
+    %tr
+      %td
+        = link_to sound.title, soundtrack_path(sound.title)
